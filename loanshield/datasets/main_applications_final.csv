@@ -1,0 +1,55 @@
+applicant_id,customer_id,name,aadhaar_number,dob,phone_number,home_address,age,declared_income_monthly,loan_amount,purpose,target_scenario
+APP-001,CU-001,Aarav Sharma,938571000000,01-05-1976,+91 98765 93810,"Flat 101, Building 1, Sector 62, Noida, Uttar Pradesh 201301",50,949535,2636955,Used Car Loan,Prime
+APP-002,CU-002,Vihaan Patel,357143000000,19-05-1982,+91 91234 24592,"Flat 114, Building 8, HSR Layout, Bengaluru, Karnataka 560102",44,696065,2900030,Used Car Loan,Prime
+APP-003,CU-003,Vivaan Saxena,753663000000,18-04-1969,+91 99887 13278,"Flat 127, Building 15, GK-2, New Delhi, Delhi 110048",57,1146310,3271055,Business Venture,Prime
+APP-004,CU-004,Ananya Desai,954664000000,26-08-1983,+91 95551 46048,"Flat 140, Building 22, Andheri West, Mumbai, Maharashtra 400053",43,1097435,2255390,Used Car Loan,Prime
+APP-005,CU-005,Diya Chatterjee,381506000000,01-03-1973,+91 88888 42098,"Flat 153, Building 4, Jubilee Hills, Hyderabad, Telangana 500033",53,1126080,1447295,Debt Consolidation,Prime
+APP-006,CU-006,Reyansh Gupta,624127000000,01-03-1994,+91 77777 39256,"Flat 166, Building 11, Kothrud, Pune, Maharashtra 411038",32,912135,2207025,Major Purchase,Prime
+APP-007,CU-007,Arjun Nair,428011000000,13-04-1990,+91 94321 28289,"Flat 179, Building 18, Salt Lake Sector 5, Kolkata, West Bengal 700091",36,1309680,2019175,Business Venture,Prime
+APP-008,CU-008,Sai Reddy,997224000000,03-09-1971,+91 98400 23434,"Flat 192, Building 25, Besant Nagar, Chennai, Tamil Nadu 600090",55,853230,2610095,Major Purchase,Prime
+APP-009,CU-009,Meera Joshi,561089000000,27-01-1977,+91 96600 98696,"Flat 205, Building 7, Malviya Nagar, Jaipur, Rajasthan 302017",49,1124720,2825145,Emergency Expenses,Prime
+APP-010,CU-010,Rohan Das,142474000000,02-04-1991,+91 98250 81482,"Flat 218, Building 14, Alkapuri, Vadodara, Gujarat 390007",35,1150475,1694135,Debt Consolidation,Prime
+APP-011,CU-011,Kavita Mishra,420070000000,09-04-1969,+91 98765 21395,"Flat 231, Building 21, Sector 62, Noida, Uttar Pradesh 201301",57,1283330,2485655,Emergency Expenses,Prime
+APP-012,CU-012,Isha Malhotra,738986000000,05-05-1994,+91 91234 87397,"Flat 244, Building 3, HSR Layout, Bengaluru, Karnataka 560102",32,702270,2471375,Debt Consolidation,Prime
+APP-013,CU-013,Kabir Choudhury,660381000000,14-02-1980,+91 99887 65302,"Flat 257, Building 10, GK-2, New Delhi, Delhi 110048",46,1150815,2094145,Major Purchase,Prime
+APP-014,CU-014,Aadhya Verma,507359000000,06-06-1989,+91 95551 14165,"Flat 270, Building 17, Andheri West, Mumbai, Maharashtra 400053",37,1126590,1378530,Home Improvement,Prime
+APP-015,CU-015,Rahul Yadav,544436000000,06-05-1969,+91 88888 13905,"Flat 283, Building 24, Jubilee Hills, Hyderabad, Telangana 500033",57,1359660,2040595,Business Venture,Prime
+APP-016,CU-016,Sana Khan,957705000000,26-06-2000,+91 77777 22280,"Flat 296, Building 6, Kothrud, Pune, Maharashtra 411038",26,423300,1102875,Major Purchase,Thin Credit
+APP-017,CU-017,Devansh Shah,67492700491,26-07-2003,+91 94321 38657,"Flat 309, Building 13, Salt Lake Sector 5, Kolkata, West Bengal 700091",23,406640,1538160,Major Purchase,Thin Credit
+APP-018,CU-018,Zara Ahmed,197581000000,10-04-1999,+91 98400 40495,"Flat 322, Building 20, Besant Nagar, Chennai, Tamil Nadu 600090",27,422535,1360170,Major Purchase,Thin Credit
+APP-019,CU-019,Aaryan Pillai,353813000000,10-02-2001,+91 96600 76237,"Flat 335, Building 2, Malviya Nagar, Jaipur, Rajasthan 302017",25,405705,924460,Emergency Expenses,Thin Credit
+APP-020,CU-020,Prisha Kapoor,203883000000,08-09-2004,+91 98250 88907,"Flat 348, Building 9, Alkapuri, Vadodara, Gujarat 390007",22,504135,1632340,Emergency Expenses,Thin Credit
+APP-021,CU-021,Krishna Murthy,297211000000,14-01-2003,+91 98765 13478,"Flat 361, Building 16, Sector 62, Noida, Uttar Pradesh 201301",23,482715,1148010,Business Venture,Thin Credit
+APP-022,CU-022,Riya Sen,146201000000,02-07-1999,+91 91234 83563,"Flat 374, Building 23, HSR Layout, Bengaluru, Karnataka 560102",27,551565,1684955,Emergency Expenses,Thin Credit
+APP-023,CU-023,Ishaan Bhatia,326863000000,19-02-2000,+91 99887 36062,"Flat 387, Building 5, GK-2, New Delhi, Delhi 110048",26,449735,1530170,Debt Consolidation,Thin Credit
+APP-024,CU-024,Meenal Hegde,733629000000,24-09-2003,+91 95551 95181,"Flat 400, Building 12, Andheri West, Mumbai, Maharashtra 400053",23,468860,885020,Home Improvement,Thin Credit
+APP-025,CU-025,Advait Joshi,35034840624,19-11-2004,+91 88888 81426,"Flat 413, Building 19, Jubilee Hills, Hyderabad, Telangana 500033",22,414120,1352945,Major Purchase,Thin Credit
+APP-026,CU-026,Tanvi Kulkarni,995794000000,23-05-2003,+91 77777 64987,"Flat 426, Building 1, Kothrud, Pune, Maharashtra 411038",23,458150,1558475,Debt Consolidation,Thin Credit
+APP-027,CU-027,Darsh Mahajan,570605000000,10-08-2002,+91 94321 38893,"Flat 439, Building 8, Salt Lake Sector 5, Kolkata, West Bengal 700091",24,403750,1422135,Debt Consolidation,Thin Credit
+APP-028,CU-028,Kriti Malhotra,612675000000,07-06-2004,+91 98400 68878,"Flat 452, Building 15, Besant Nagar, Chennai, Tamil Nadu 600090",22,383350,1486990,Debt Consolidation,Thin Credit
+APP-029,CU-029,Yash Singhal,287437000000,12-10-2004,+91 96600 87236,"Flat 465, Building 22, Malviya Nagar, Jaipur, Rajasthan 302017",22,546890,892840,Major Purchase,Thin Credit
+APP-030,CU-030,Siya Tiwari,747594000000,16-10-2004,+91 98250 46463,"Flat 478, Building 4, Alkapuri, Vadodara, Gujarat 390007",22,471665,1146310,Business Venture,Thin Credit
+APP-031,CU-031,Shaurya Pratap,161972000000,06-03-1994,+91 98765 10851,"Flat 491, Building 11, Sector 62, Noida, Uttar Pradesh 201301",32,385900,5510975,Emergency Expenses,High DTI
+APP-032,CU-032,Anika Banerjee,218389000000,13-01-1998,+91 91234 30926,"Flat 504, Building 18, HSR Layout, Bengaluru, Karnataka 560102",28,414205,7455520,Home Improvement,High DTI
+APP-033,CU-033,Atharv Mishra,102428000000,01-04-1994,+91 99887 65392,"Flat 517, Building 25, GK-2, New Delhi, Delhi 110048",32,439960,5508765,Debt Consolidation,High DTI
+APP-034,CU-034,Ridhima Goel,389132000000,11-02-1977,+91 95551 54597,"Flat 530, Building 7, Andheri West, Mumbai, Maharashtra 400053",49,402475,7164225,Debt Consolidation,High DTI
+APP-035,CU-035,Aarush Mahapatra,277422000000,24-10-1979,+91 88888 46421,"Flat 543, Building 14, Jubilee Hills, Hyderabad, Telangana 500033",47,403580,7794755,Major Purchase,High DTI
+APP-036,CU-036,Siddhi Deshmukh,251942000000,25-08-1988,+91 77777 30379,"Flat 556, Building 21, Kothrud, Pune, Maharashtra 411038",38,391850,6557240,Debt Consolidation,High DTI
+APP-037,CU-037,Utkarsh Singh,326335000000,13-10-1989,+91 94321 38221,"Flat 569, Building 3, Salt Lake Sector 5, Kolkata, West Bengal 700091",37,427805,6265860,Major Purchase,High DTI
+APP-038,CU-038,Myra Kapoor,394449000000,13-02-1995,+91 98400 54118,"Flat 582, Building 10, Besant Nagar, Chennai, Tamil Nadu 600090",31,491300,6305130,Major Purchase,High DTI
+APP-039,CU-039,Dhruv Grover,862438000000,22-07-1981,+91 96600 23396,"Flat 595, Building 17, Malviya Nagar, Jaipur, Rajasthan 302017",45,450925,8047290,Home Improvement,High DTI
+APP-040,CU-040,Pari Chauhan,660429000000,26-04-1981,+91 98250 22156,"Flat 608, Building 24, Alkapuri, Vadodara, Gujarat 390007",45,391850,5641535,Home Improvement,High DTI
+APP-041,CU-041,Manish Sharma,591238000000,05-08-1979,+91 98765 59797,"Flat 621, Building 6, Sector 62, Noida, Uttar Pradesh 201301",47,725050,2687105,Home Improvement,Fraud
+APP-042,CU-042,Avani Mehta,838724000000,06-05-1985,+91 91234 22676,"Flat 634, Building 13, HSR Layout, Bengaluru, Karnataka 560102",41,726835,3766265,Used Car Loan,Fraud
+APP-043,CU-043,Ayushman Khurana,475168000000,10-07-2007,+91 99887 57052,"Flat 647, Building 20, GK-2, New Delhi, Delhi 110048",19,351730,9518980,Home Improvement,Fraud
+APP-044,CU-044,Gargi Shenoy,559510000000,24-05-1996,+91 95551 55082,"Flat 660, Building 2, Andheri West, Mumbai, Maharashtra 400053",30,882640,4101505,Used Car Loan,Fraud
+APP-045,CU-045,Nikhil Wadhwa,328329000000,14-11-1994,+91 88888 89131,"Flat 673, Building 9, Jubilee Hills, Hyderabad, Telangana 500033",32,584120,4745380,Major Purchase,Fraud
+APP-046,CU-046,Tara Iyer,590297000000,14-02-2008,+91 77777 44671,"Flat 686, Building 16, Kothrud, Pune, Maharashtra 411038",18,481100,9483025,Home Improvement,Fraud
+APP-047,CU-047,Rishabh Pant,268836000000,01-09-1987,+91 94321 15695,"Flat 699, Building 23, Salt Lake Sector 5, Kolkata, West Bengal 700091",39,568820,1734680,Business Venture,Missing Documents
+APP-048,CU-048,Kiara Advani,521415000000,05-08-1980,+91 98400 70217,"Flat 712, Building 5, Besant Nagar, Chennai, Tamil Nadu 600090",46,589220,1897710,Business Venture,Missing Documents
+APP-049,CU-049,Siddharth Malhotra,308050000000,15-07-1998,+91 96600 80284,"Flat 725, Building 12, Malviya Nagar, Jaipur, Rajasthan 302017",28,580890,1454860,Business Venture,Missing Documents
+APP-050,CU-050,Alia Bhatt,665619000000,09-08-1998,+91 98250 26361,"Flat 738, Building 19, Alkapuri, Vadodara, Gujarat 390007",28,539495,2220795,Home Improvement,Missing Documents
+APP-051,CU-051,Ranbir Kapoor,632037000000,14-11-1988,+91 98765 59615,"Flat 751, Building 1, Sector 62, Noida, Uttar Pradesh 201301",37,807500,3825000,Debt Consolidation,Terminated Employment Fraud
+APP-052,CU-052,Varun Dhawan,943671000000,22-03-1992,+91 91234 20328,"Flat 764, Building 8, HSR Layout, Bengaluru, Karnataka 560102",34,527000,2125000,Home Improvement,Terminated Employment Fraud
+APP-053,CU-053,Ishaan Khatter,940259000000,05-09-1985,+91 99887 82357,"Flat 777, Building 15, GK-2, New Delhi, Delhi 110048",40,935000,5525000,Business Venture,Terminated Employment Fraud
+APP-054,CU-054,Kriti Sanon,83237162626,19-07-1995,+91 95551 48427,"Flat 790, Building 22, Andheri West, Mumbai, Maharashtra 400053",31,459000,1275000,Used Car Loan,Terminated Employment Fraud

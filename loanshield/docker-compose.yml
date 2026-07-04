@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  loanshield-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: loanshield-service
+    ports:
+      - "8080:8080"
+    environment:
+      - GROQ_MODEL=llama-3.3-70b-versatile
+      - GROQ_API_KEY=${GROQ_API_KEY}
+    volumes:
+      - ./datasets:/app/datasets
+    restart: unless-stopped
