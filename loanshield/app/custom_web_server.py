@@ -289,9 +289,14 @@ async def generate_letter_pdf(payload: Dict[str, Any]):
 @app.get("/api/benchmark")
 async def get_benchmark_cases():
     import csv
-    csv_path = "../datasets/main_applications_final.csv"
+
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    csv_path = os.path.abspath(os.path.join(current_dir, "..", "datasets", "main_applications_final.csv"))
     if not os.path.exists(csv_path):
-        csv_path = "datasets/main_applications_final.csv"
+        raise HTTPException(
+            status_code=500,
+            detail=f"Benchmark dataset not found at expected path: {csv_path}"
+        )
 
     cases = []
     with open(csv_path, "r", encoding="utf-8") as f:
