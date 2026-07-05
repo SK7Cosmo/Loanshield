@@ -4,6 +4,14 @@ LoanShield is an enterprise-grade automated lending decision platform built on G
 
 ---
 
+## 🎥 Walkthrough Video
+
+In this video, I walk through the complete architecture and demonstrate how LoanShield automates the loan underwriting workflow using Google ADK, MCP (Model Context Protocol), LLM,  deterministic skills, and Human-in-the-Loop (HITL) review.
+
+[![Walkthrough Video](kaggle_submission_resources/youtube_thumbnail.png)](https://youtu.be/NMJWAKmyM64)
+
+---
+
 ## 🏛️ System Architecture
 
 The LoanShield processing pipeline is structured as a LangGraph state workflow:
