@@ -208,7 +208,7 @@ async function loadBenchmarkTemplates() {
             if (profile.target_scenario === 'Thin Credit') {
                 badgeClass = 'badge-thin';
                 label = 'Review';
-            } else if (['High DTI', 'Fraud', 'Terminated Employment'].includes(profile.target_scenario)) {
+            } else if (['High DTI', 'Fraud', 'Terminated Employment Fraud'].includes(profile.target_scenario)) {
                 badgeClass = 'badge-reject';
                 label = 'Reject';
             } else if (profile.target_scenario === 'Missing Documents') {
