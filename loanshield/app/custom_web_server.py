@@ -26,11 +26,6 @@ from app.agent import app as loanshield_app
 
 app = FastAPI(title="LoanShield Premium Frontend Gateway")
 
-@app.middleware("http")
-async def _log_path(request, call_next):
-    print("PATH SEEN:", request.url.path, flush=True)
-    return await call_next(request)
-
 
 # Enable CORS for local cross-port testing
 app.add_middleware(
