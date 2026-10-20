@@ -62,29 +62,33 @@ loanshield/
 │   └── github_actions.yaml
 ├── datasets/                       # Reference mock datasets (JSON/CSVs)
 ├── app/
-│   ├── __init__.py                 # Application initialization
-│   ├── agent.py                    # LangGraph workflow coordination & agent nodes
-│   ├── config.py                   # Environment variable mappings
-│   ├── state.py                    # Graph state TypedDict and Pydantic schemas
-│   ├── mcp_server.py               # Stdio MCP servers exposing databases as tools
-│   └── skills/                     # Modular business verification functions
-│       ├── pii_redactor.py         # Regex + LLM-based PII mask
-│       ├── income_verify.py        # Plaid-style bank deposit validation
-│       ├── dti_calculator.py       # Affordability DTI ratio checks
-│       ├── stability_modifier.py   # Job tenure scoring adjustment
-│       ├── risk_scoring.py         # Multi-factor score calculator
-│       ├── fraud_detection.py      # Hard risk rules & limits
-│       └── explanation.py          # ECOA regulatory notice builder
-└── tests/
-    ├── conftest.py                 # Global LLM mocks & patches (offline testing)
-    ├── test_skills.py              # Unit tests for scoring/verification skills
-    ├── test_mcp.py                 # Integration tests for MCP server tools
-    └── test_graph.py               # End-to-end integration tests over all 54 rows
+   ├── __init__.py                 # Application initialization
+   ├── agent.py                    # LangGraph workflow coordination & agent nodes
+   ├── config.py                   # Environment variable mappings
+   ├── state.py                    # Graph state TypedDict and Pydantic schemas
+   ├── mcp_server.py               # Stdio MCP servers exposing databases as tools
+   └── skills/                     # Modular business verification functions
+       ├── pii_redactor.py         # Regex + LLM-based PII mask
+       ├── income_verify.py        # Plaid-style bank deposit validation
+       ├── dti_calculator.py       # Affordability DTI ratio checks
+       ├── stability_modifier.py   # Job tenure scoring adjustment
+       ├── risk_scoring.py         # Multi-factor score calculator
+       ├── fraud_detection.py      # Hard risk rules & limits
+       └── explanation.py          # ECOA regulatory notice builder
 ```
 
 ---
 
 ## 🚀 Local Development Commands
+
+### Setup Environment Variables
+
+Create a `.env` file in the `loanshield` folder:
+
+```env
+GROQ_API_KEY=your_key
+GROQ_MODEL=LLM_model_name
+```
 
 This project uses `uv` for dependency management. Access all tasks via the `Makefile`:
 
